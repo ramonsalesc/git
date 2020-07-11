@@ -7,5 +7,8 @@ p {
   background-color: chartreuse;
 }
 
-h1 {
+.navegacao a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
 }
