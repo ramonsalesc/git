@@ -1,11 +1,11 @@
 .formata {
-  color: blueviolet;
+  margin-top: 30px;
+  background-image: linear-gradient(rgb(75, 75, 87), red);
+  line-height: 100px;
 }
 p {
   background-color: chartreuse;
 }
 
 h1 {
-  margin-top: 30px;
-  background-image: linear-gradient(rgb(75, 75, 87), rgb(139, 47, 47));
 }
