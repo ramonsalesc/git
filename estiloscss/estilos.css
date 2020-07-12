@@ -1,15 +1,20 @@
 .formata {
   margin-top: 30px;
   background-image: linear-gradient(rgb(75, 75, 87), red);
-  line-height: 100px;
+  max-height: 100px;
+  display: flex;
+  flex-direction: row;
 }
 p {
   background-color: chartreuse;
   font-size: 30px;
 }
-
-.navegacao a {
+h1 {
+  flex: 1;
+  min-width: 600px;
+}
+.navegacao {
   text-decoration: none;
-  display: flex;
-  flex-direction: row;
+  display: flex list-item;
+  min-width: 300;
 }
